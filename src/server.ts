@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://chat-socketio-react.vercel.app'
+    origin: 'https://chat.aleksa.codes'
   }
 });
 
